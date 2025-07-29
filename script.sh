@@ -40,4 +40,4 @@ repo init -u https://github.com/Miku-UI/manifesto -b Blooming --git-lfs
 # Building
 . build/envsetup.sh
 lunch miku_xaga-bp2a-userdebug
-make diva
+mka bacon
