@@ -35,9 +35,9 @@ cd ..
 cd ..
 cd ..
 # Syncing source
-repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16 --git-lfs
 /opt/crave/resync.sh
 # Building
 . build/envsetup.sh
 lunch lineage_xaga-bp2a-userdebug
-m evolution
+mka derp
